@@ -2,7 +2,7 @@
 
 Este proyecto implementa un nodo LoRaWAN avanzado utilizando la placa **Heltec WiFi LoRa 32 V3**. Integra geolocalización por GPS, conteo de pasos mediante IMU de alta precisión, monitorización de pulso cardíaco y visualización de datos en tiempo real en una pantalla OLED.
 
-![Heltec V3]([https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32_V3.png](https://heltec.org/wp-content/uploads/2023/09/2.png))
+![Heltec V3](https://heltec.org/wp-content/uploads/2023/09/2.png)
 
 ## 🚀 Características Principales
 

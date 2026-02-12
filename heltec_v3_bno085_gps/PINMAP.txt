@@ -1,0 +1,26 @@
+ * CONEXIONES BNO085 (modo I2C) - USA UN SEGUNDO BUS I2C:
+ * ======================================================
+ * VCC_3V3  -> 3.3V
+ * GND      -> GND
+ * SCL      -> GPIO 48
+ * SDA      -> GPIO 47
+ * PS0      -> -
+ * PS1      -> -
+ * CS       -> -
+ * ADDR     -> -
+ * RST      -> -
+ * 
+ * CONEXIONES GPS NEO-M8N (UART):
+ * ==============================
+ * VCC      -> 3.3V
+ * GND      -> GND
+ * TX       -> GPIO 19 (RX del ESP32)
+ * RX       -> GPIO 20 (TX del ESP32)
+ * 
+ * CONEXIONES SENSOR DE PULSACIONES:
+ * ==============================
+ * +      -> 3.3V
+ * -      -> GND
+ * S       -> GPIO 1
+ * NOTA: La pantalla OLED interna usa GPIO 17 (SDA) y GPIO 18 (SCL)
+ */

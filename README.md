@@ -4,7 +4,7 @@ Este proyecto implementa un nodo LoRaWAN avanzado utilizando la placa **Heltec W
 
 ![Heltec V3](https://heltec.org/wp-content/uploads/2023/09/2.png)
 
-## 🚀 Características Principales
+## Características Principales
 
 * **Conectividad LoRaWAN**: Configurado para la región **EU868** (Europa) con soporte para activación OTAA (Over-The-Air Activation).
 * **Rastreo GPS**: Obtención de coordenadas (latitud, longitud) y número de satélites visibles mediante el módulo **NEO-M8N**.
@@ -12,7 +12,7 @@ Este proyecto implementa un nodo LoRaWAN avanzado utilizando la placa **Heltec W
 * **Monitor Cardíaco**: Lectura analógica en tiempo real de pulsaciones mediante un sensor de pulso óptico.
 * **Interfaz OLED**: Visualización local del estado de la red, recuento de pasos, coordenadas GPS y pulso.
 
-## 🛠️ Hardware y Conexiones (Pinout)
+## Hardware y Conexiones (Pinout)
 
 La placa base es un **Heltec WiFi LoRa 32 V3** (ESP32-S3 + SX1262). A continuación se detalla el mapa de conexiones para los sensores externos:
 
@@ -32,7 +32,7 @@ La placa base es un **Heltec WiFi LoRa 32 V3** (ESP32-S3 + SX1262). A continuaci
 
 > **Nota:** La pantalla OLED está integrada en la placa y utiliza los pines `GPIO 17` (SDA) y `GPIO 18` (SCL) en el bus I2C interno.
 
-## 📦 Estructura del Payload LoRaWAN
+## Estructura del Payload LoRaWAN
 
 El dispositivo envía un paquete de datos hexadecimal de **18 bytes** con la siguiente estructura para optimizar el tiempo en aire:
 
